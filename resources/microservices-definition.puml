@@ -1,0 +1,22 @@
+@startmindmap Microservices Definition Components
+caption Figure 1: Microservices Definition
+
+* __Microservice__
+** Suite of modular services
+** Single Purpose
+***_  Single Concern Principle
+** Self containerd, owns its:
+***_  Code
+***_  State
+***_  Data
+** Expose well defined interface
+***_ REST
+***_ gRPC
+** Owns its data store
+** Developed & Deployed Independently
+** Composed together to form an application
+
+legend top left
+https://www.youtube.com/watch?v=jMDufMYAsmw&list=WL&index=2&t=0s
+endlegend
+@endmindmap
