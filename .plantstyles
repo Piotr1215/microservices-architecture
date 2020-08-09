@@ -34,7 +34,7 @@ skinparam class {
 
 skinparam object {
     ArrowColor Black
-    BackgroundColor White
+    BackgroundColor Yellow
     BorderColor Black
 }
 
