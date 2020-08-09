@@ -1,0 +1,24 @@
+{
+  "name": "microservices-architecture",
+  "version": "1.0.0",
+  "description": "Microservices architecture patterns and principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piotr1215/microservices-architecture.git"
+  },
+  "author": "Piotr1215",
+  "license": "MIT",
+  "devDependencies": {
+    "node-plantuml": "^0.9.0",
+    "watch": "^1.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Piotr1215/microservices-architecture/issues"
+  },
+  "homepage": "https://github.com/Piotr1215/microservices-architecture#readme"
+}
