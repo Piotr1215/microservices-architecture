@@ -1,0 +1,27 @@
+@startuml Microservice Components
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/server>
+
+rectangle "Single Assembly" as assembly #line.dashed {
+  component "API/Application Layer" as apilayer
+  component "Domain Model Layer" as domainlayer
+  component "Infrastructure Layer" as infralayer
+}
+
+apilayer --> domainlayer
+domainlayer --> infralayer
+
+note right of apilayer
+**API/Application Layer**: Entry point into a service.
+Exposes endpoints and enforces validation. Contains no business logic.
+end note
+note right of domainlayer
+**Domain Layer**: Core of the software. Contains business rules
+and logic. All business logis is implemented here
+end note
+note right of infralayer
+**Infrastructure Layer**: Infrastructure component for integration with
+hosting infrastructure and data persistance.
+end note
+
+@enduml

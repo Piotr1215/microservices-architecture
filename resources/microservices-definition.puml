@@ -1,6 +1,6 @@
 @startmindmap Microservices Definition Components
 caption Figure 1: Microservices Definition
-' sd
+' sd s
 * __Microservice__
 ** Suite of modular services
 ** Single Purpose
@@ -15,8 +15,5 @@ caption Figure 1: Microservices Definition
 ** Owns its data store
 ** Developed & Deployed Independently
 ** Composed together to form an application
-
-legend top left
-https://www.youtube.com/watch?v=jMDufMYAsmw&list=WL&index=2&t=0s
-endlegend
 @endmindmap
+

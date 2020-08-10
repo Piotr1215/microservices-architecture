@@ -39,7 +39,7 @@ skinparam object {
 }
 
 skinparam package {
-    BackgroundColor White
+    BackgroundColor Yellow
     BorderColor Black
 }
 
