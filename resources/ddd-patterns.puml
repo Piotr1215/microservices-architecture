@@ -1,14 +1,12 @@
 @startmindmap DDD Patterns
-*:__**Domain**__
-__**Driven**__
-__**Design**__;
+* **Domain Driven Design**
 
-** **Practices**
+** __Practices__
 *** Bounded Context
 *** Aggregates
 *** Repositories
 
-** **Patterns**
+** __Patterns__
 *** Domain Entity Pattern
 **** State + Behavior
 **** Has ID

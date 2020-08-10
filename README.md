@@ -5,4 +5,6 @@ Architectural principles and guidelines for building microservices based on [Mic
 
 ![Microservices definition](/resources/microservices-definition.png)
 
+![Domain Driven Design Patterns](/resources/ddd-patterns.png)
+
 ![Microservice base components](/resources/microservice-design.png)
