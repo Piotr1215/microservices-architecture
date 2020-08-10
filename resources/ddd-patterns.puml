@@ -1,18 +1,30 @@
 @startmindmap DDD Patterns
-* **Domain Driven Design**
+* **Microservices Patterns**
 
-** __Practices__
-*** Bounded Context
-*** Aggregates
-*** Repositories
+** __Domain Driven Design__
+*** Key Concepts
+**** Bounded Context
+*** Patterns
+**** Aggregates
+***** Groups Related Entities
+***** Self Contained
+***** One Root
+**** Repositories
+**** Domain Entity Pattern
+***** State + Behavior
+***** Has ID
 
-** __Patterns__
-*** Domain Entity Pattern
-**** State + Behavior
-**** Has ID
 
-*** Domain Aggregate Pattern
-**** Groups Related Entities
-**** Self Contained
-**** One Root
+** __Cloud Native Backing Services__
+*** Types
+**** Data Stores
+**** Message Brokers
+**** Distributed Caches
+**** Monitoring
+**** Identity Management
+*** Characteristics
+**** Attached Resources
+**** Plug n Play (Strategy Pattern)
+**** Plug n Play
+
 @endmindmap
