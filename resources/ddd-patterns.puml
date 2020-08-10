@@ -1,6 +1,20 @@
 @startmindmap DDD Patterns
-* __**DDD Practices**__
-** Bounded context
-** Aggregates
-** Repositories
+*:__**Domain**__
+__**Driven**__
+__**Design**__;
+
+** **Practices**
+*** Bounded Context
+*** Aggregates
+*** Repositories
+
+** **Patterns**
+*** Domain Entity Pattern
+**** State + Behavior
+**** Has ID
+
+*** Domain Aggregate Pattern
+**** Groups Related Entities
+**** Self Contained
+**** One Root
 @endmindmap
