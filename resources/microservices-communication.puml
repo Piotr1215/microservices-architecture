@@ -1,0 +1,36 @@
+@startmindmap Microservices Communication
+* **Communication**
+** Direct
+*** Pro
+**** Simple
+*** Cons
+**** Thight Coupling
+**** Sensitive to Refactoring
+**** Chatty
+**** Complex for the Frontend
+*****_ Risk of business logic leakaga
+**** Cross Cutting Concerns in each service
+**** Security Concerns due to wider attack surface
+** Indirect
+*** Pro
+*** Cons
+** Patterns
+*** Backend for Frontends
+**** Web App API Gateway
+**** Mobile API Gateway
+**** Dekstop API Gateway
+*** Gateway Offloading Pattern
+** Tools
+*** Azure API Management
+**** Developer Portal
+**** API Gateway
+**** Publisher Portal
+**** Policies
+**** On Prem/Other Clouds
+*** Ocelot
+**** Open Source
+**** For .NET Core
+*** SignalR Service
+**** Push data to clients
+
+@endmindmap
